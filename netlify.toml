@@ -1,7 +1,7 @@
-[build]
-  publish = "."
+# Site statique : pas de build. Netlify publie le dossier déposé (ou la racine
+# du dépôt) tel quel — ne pas déclarer de section [build], elle fait échouer le
+# glisser-déposer.
 
-# L'ancien site mono-praticien vivait à la racine : on renvoie vers la fiche.
 [[redirects]]
   from = "/wilfrid"
   to = "/personnes-ecoute/wilfrid-boulevard"
