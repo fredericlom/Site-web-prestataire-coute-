@@ -1,6 +1,12 @@
 [build]
   publish = "."
 
+# L'ancien site mono-praticien vivait à la racine : on renvoie vers la fiche.
+[[redirects]]
+  from = "/wilfrid"
+  to = "/personnes-ecoute/wilfrid-boulevard"
+  status = 301
+
 [[headers]]
   for = "/*"
   [headers.values]
