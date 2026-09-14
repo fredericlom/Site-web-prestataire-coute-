@@ -3,7 +3,7 @@
 
   var scrollArea = document.getElementById('scrollArea');
   var navTitle = document.getElementById('navTitle');
-  var tabbar = document.getElementById('tabbar');
+  var appFrame = document.querySelector('.app-frame');
   var tabs = document.querySelectorAll('.tab');
   var titles = {
     accueil: 'Wilfrid Boulevard',
@@ -17,14 +17,17 @@
     tabs.forEach(function (t) {
       t.classList.toggle('is-active', t.dataset.tab === name);
     });
-    tabbar.querySelectorAll('button[data-go]').forEach(function (b) {
+    document.querySelectorAll('.tabbar [data-go], .nav-desk [data-go]').forEach(function (b) {
       var on = b.dataset.go === name;
       b.classList.toggle('is-active', on);
-      b.setAttribute('aria-selected', on ? 'true' : 'false');
+      b.setAttribute('aria-current', on ? 'page' : 'false');
     });
+    appFrame.dataset.tab = name;
     navTitle.textContent = titles[name] || '';
-    // instant, not smooth: a tab switch should land at the top immediately
+    // instant, not smooth: a tab switch should land at the top immediately.
+    // On phones the inner area scrolls; on desktop the page itself does.
     scrollArea.scrollTo({ top: 0, behavior: 'instant' });
+    window.scrollTo({ top: 0, behavior: 'instant' });
     updateNavTitle();
     closeSheet();
   }
