@@ -1,0 +1,13 @@
+{
+  "name": "Wilfrid Boulevard — Un temps d'écoute",
+  "short_name": "Wilfrid Boulevard",
+  "description": "Prestataire de service écoute à La Réunion. Un espace de parole calme, confidentiel et non thérapeutique.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#EDE8DE",
+  "theme_color": "#3E4A3A",
+  "lang": "fr",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
