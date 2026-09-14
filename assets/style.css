@@ -196,6 +196,7 @@ h1,h2,h3{margin:0}
 .btn-secondary:hover{background:#DEDEE3;color:var(--ink)}
 .btn-secondary:active{transform:scale(.97)}
 .btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.btn[disabled]{opacity:.45;cursor:default}
 
 /* ---------------- cards ---------------- */
 .card{
