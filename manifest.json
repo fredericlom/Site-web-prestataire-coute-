@@ -4,8 +4,8 @@
   "description": "Un réseau de personnes d'écoute indépendantes à La Réunion. Écoute relationnelle, non thérapeutique.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FFFFFF",
-  "theme_color": "#FBFBFD",
+  "background_color": "#F8F6F0",
+  "theme_color": "#F8F6F0",
   "lang": "fr",
   "icons": [
     { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
