@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Les Personnes d'Écoute — Être entendu, sans jugement</title>
 <meta name="description" content="Un réseau de personnes d'écoute indépendantes à La Réunion. Un espace de parole calme, confidentiel et non thérapeutique. Trouvez la personne qui vous écoutera.">
-<meta name="theme-color" content="#FBFBFD">
+<meta name="theme-color" content="#F8F6F0">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="favicon.svg">
 <link rel="stylesheet" href="assets/style.css">
@@ -21,7 +21,7 @@
       <a href="questions.html">Questions</a>
       <a href="contact.html">Contact</a>
     </nav>
-    <a class="header-cta" href="rejoindre.html">Rejoindre le réseau</a>
+    <a class="header-cta" href="personnes-ecoute/index.html">Trouver une écoute</a>
     <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Ouvrir le menu">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </button>
@@ -33,29 +33,40 @@
     <a href="approche.html">L'approche</a>
     <a href="questions.html">Questions</a>
     <a href="contact.html">Contact</a>
-    <a class="header-cta" href="rejoindre.html">Rejoindre le réseau</a>
+    <a class="header-cta" href="personnes-ecoute/index.html">Trouver une écoute</a>
   </div>
 
   <main>
 
     <section class="wrap hero">
-      <h1 class="display">Parler, et <em>être entendu</em>.</h1>
-      <p class="lead" style="margin-top:24px">Parfois, on a besoin de parler, mais personne n'est là pour écouter.
-        Pas pour être soigné, pas pour être conseillé : simplement pour être entendu.</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="personnes-ecoute/index.html">Voir les personnes d'écoute</a>
-        <a class="btn btn-secondary" href="approche.html">Découvrir l'approche</a>
+      <div class="hero-copy">
+        <h1 class="display">Un temps pour parler.<br><em>Une personne pour vous écouter.</em></h1>
+        <p class="location-label">Des personnes d’écoute à La Réunion</p>
+        <p class="lead">Ce qui vous pèse, ce qui vous traverse, ou simplement votre journée. Ici, vous pouvez parler à votre rythme.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#personnes">Trouver une personne d’écoute</a>
+          <a class="text-link" href="#deroulement">Comment ça se passe ?</a>
+        </div>
+        <p class="hero-note">Sans jugement · Sans conseil · Non thérapeutique</p>
       </div>
+      <figure class="hero-photo">
+        <img src="photos/frederic-ecoute.jpg" alt="Frédéric, assis à une table face à une personne" width="1206" height="2125" fetchpriority="high">
+        <figcaption>Une présence. Toute votre place.</figcaption>
+      </figure>
     </section>
 
-    <section class="wrap stack-md">
-      <div class="card">
-        <p class="serif-quote">Parfois, on ressent le besoin de parler, mais personne
-          n'est là pour nous écouter.</p>
-        <p class="serif-quote" style="margin-top:12px;color:var(--accent)">À qui parler ?</p>
-        <hr class="hairline" style="margin:22px 0">
-        <p class="body" style="margin:0">Une personne d'écoute vous accueille pour un temps de parole. Rien n'est
-          analysé, rien n'est interprété, rien n'est évalué. Votre parole est reçue telle qu'elle vient.</p>
+    <section class="wrap welcome-strip" aria-label="Modalités d’écoute">
+      <p>À votre rythme.<br><strong>De la façon qui vous convient.</strong></p>
+      <span>En présentiel</span><span>Par téléphone</span><span>En visio</span>
+    </section>
+
+    <section class="wrap stack-lg" id="deroulement">
+      <h2 class="title-md">Pas besoin de trouver les bons mots.</h2>
+      <p class="body section-intro">Vous n’avez rien à préparer, ni à justifier. Voici comment prendre un temps pour vous.</p>
+      <div class="grid grid-3 steps">
+        <article><span class="num-badge">01 / CHOISIR</span><h3 class="title-sm">Découvrez les personnes</h3><p class="body">Prenez le temps de lire les profils et de choisir la personne que vous souhaitez contacter.</p></article>
+        <article><span class="num-badge">02 / CONVENIR</span><h3 class="title-sm">Organisez votre rencontre</h3><p class="body">Consultez le tarif, la durée et les créneaux sur la page de réservation. Vous pouvez aussi appeler avant de réserver.</p></article>
+        <article><span class="num-badge">03 / PARLER</span><h3 class="title-sm">Prenez votre place</h3><p class="body">Parler, se taire, reprendre. Une personne vous écoute, sans vous dire ce que vous devriez faire.</p></article>
       </div>
     </section>
 
@@ -65,17 +76,14 @@
       <p class="eyebrow" style="margin-top:8px">Ce que toutes les personnes du réseau s'engagent à tenir.</p>
       <div class="grid grid-3" style="margin-top:28px">
         <article class="card">
-          <span class="num-badge">01</span>
           <h3 class="title-sm">Sans jugement</h3>
           <p class="body" style="margin-top:8px">Rien n'est classé, rien n'est interprété, rien n'est évalué.</p>
         </article>
         <article class="card">
-          <span class="num-badge">02</span>
           <h3 class="title-sm">Sans interruption</h3>
           <p class="body" style="margin-top:8px">Le temps vous appartient : dire, se taire, reprendre.</p>
         </article>
         <article class="card">
-          <span class="num-badge">03</span>
           <h3 class="title-sm">Non thérapeutique</h3>
           <p class="body" style="margin-top:8px">Pas de soin, pas de diagnostic, pas de solution toute faite.</p>
         </article>
@@ -83,13 +91,13 @@
       </div>
     </section>
 
-    <section class="wrap stack-lg">
-      <h2 class="title-md">Les personnes d'écoute</h2>
+    <section class="wrap stack-lg" id="personnes">
+      <h2 class="title-md">Qui prendra le temps de vous écouter ?</h2>
       <p class="eyebrow" style="margin-top:8px">Chacune exerce à son compte, en toute indépendance, et adhère à la
         charte éthique du réseau.</p>
       <div class="people" style="margin-top:28px">
         <a class="person-card" href="personnes-ecoute/frederic-lomongiello.html">
-          <img src="photos/frederic-portrait.jpg" alt="Portrait de Frédéric Lomongiello">
+          <img loading="lazy" src="photos/frederic-portrait.jpg" alt="Portrait de Frédéric Lomongiello">
           <div class="person-body">
             <span class="person-name">Frédéric Lomongiello</span>
             <span class="person-role">Fondateur · Personne d'écoute</span>
@@ -104,7 +112,7 @@
           </div>
         </a>
         <a class="person-card" href="personnes-ecoute/wilfrid-boulevard.html">
-          <img src="photos/boulevard-canape.jpg" alt="Portrait de Wilfrid Boulevard">
+          <img loading="lazy" src="photos/boulevard-canape.jpg" alt="Portrait de Wilfrid Boulevard">
           <div class="person-body">
             <span class="person-name">Wilfrid Boulevard</span>
             <span class="person-role">Personne d'écoute</span>
@@ -119,6 +127,19 @@
           </div>
         </a>
       </div>
+    </section>
+
+    <section class="wrap home-questions">
+      <div><h2 class="title-md">Quelques repères.</h2><a class="text-link" href="questions.html">Toutes les questions fréquentes →</a></div>
+      <div>
+        <details><summary>De quoi puis-je parler ?</summary><p>De ce qui compte pour vous : votre quotidien, un sentiment de solitude, une situation difficile ou le simple besoin d’être entendu.</p></details>
+        <details><summary>Combien coûte une rencontre ?</summary><p>Chaque personne d’écoute fixe son tarif. Le prix et la durée sont indiqués sur sa page de réservation, avant de réserver.</p></details>
+        <details><summary>Est-ce une thérapie ?</summary><p>Non. C’est un temps de parole sans conseil, sans diagnostic et sans soin. Il ne remplace pas un accompagnement médical ou psychologique.</p></details>
+      </div>
+    </section>
+
+    <section class="wrap stack-md">
+      <div class="contact-invite"><div><h2 class="title-md">Une question avant de choisir ?</h2><p class="body">Vous pouvez contacter le réseau pour une information pratique.</p></div><a class="btn btn-primary" href="contact.html">Nous contacter</a></div>
     </section>
 
     <section class="wrap stack-lg">
